@@ -1,36 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Source+Sans+Pro:wght@200;300&display=swap');
 * {
   box-sizing: border-box;
 }
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #8b92a5, #000;
+}
 
 body {
-  --color-grey-50: hsl(265, 55%, 96%);
-  --color-grey-100: hsl(265, 19%, 88%);
-  --color-grey-200: hsl(265, 7%, 70%);
-  --color-grey-300: hsl(265, 6%, 66%);
-  --color-grey-400: hsl(265, 4%, 57%);
-  --color-grey-500: hsl(265, 3%, 53%);
-  --color-grey-600: hsl(265, 4%, 42%);
-  --color-grey-700: hsl(265, 4%, 31%);
-  --color-grey-800: hsl(276, 5%, 20%);
-  --color-grey-900: hsl(280, 5%, 13%);
+  --color-grey-50: hsl(0, 0%, 95.7%);
+  --color-grey-100: hsl(0, 0%, 91.8%);
+  --color-grey-200: hsl(0, 0%, 83.9%);
+  --color-grey-300: hsl(0, 0%, 72.5%);
+  --color-grey-400: hsl(0, 0%, 61.2%);
+  --color-grey-500: hsl(0, 0%, 49.8%);
+  --color-grey-600: hsl(0, 0%, 38.4%);
+  --color-grey-700: hsl(0, 0%, 27.1%);
+  --color-grey-800: hsl(0, 0%, 15.3%);
+  --color-grey-900: hsl(0, 0%, 3.9%);
 
-
-  --color-primary-50: #c8b3ce;
-  --color-primary-100: #a07aaa;
-  --color-primary-200: #884c97;
-  --color-primary-300: #843897;
-  --color-primary-400: #732392;
-  --color-primary-500: #5a097a;
-  --color-primary-600: #480264;
-  --color-primary-700: #3d0264;
+  --color-primary-50: #dbf3fb;
+  --color-primary-100: #b7e8f7;
+  --color-primary-200: #82d7f1;
+  --color-primary-300: #4dc7eb;
+  --color-primary-400: #1ab5e4;
+  --color-primary-500: #148baf;
+  --color-primary-600: #0e617a;
+  --color-primary-700: #083745;
 
   --color-success-100: #a2f0bc;
-  --color-success-500: #12bd4b;
+  --color-success-500: #08ff08;
 
-  --color-error-100: #f1acc9;
-  --color-error-500: #a10c4a;
+  --color-error-100: #fff900;
+  --color-error-500: #e10600;
 
   --size-1: 0.25rem;
   --size-2: 0.5rem;
@@ -39,7 +41,7 @@ body {
   --size-5: 1.25rem;
   --size-6: 1.5rem;
   --size-8: 2rem;
-  --size-16: 4rem;
+  --size-16: 3.5rem;
   --size-20: 5rem;
   --size-40: 10rem;
 
@@ -48,7 +50,22 @@ body {
   color: #252525;
   font-family: 'Roboto', sans-serif;
 }
-
+body::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #8b92a5;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #b5ccf6;
+}
+body::-webkit-scrollbar-track {
+  background-color: #000;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #000;
+}
 h1,
 h2,
 h3 {

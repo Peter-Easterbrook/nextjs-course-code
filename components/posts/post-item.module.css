@@ -25,6 +25,7 @@
 .content h3 {
   margin: var(--size-2) 0;
   font-size: var(--size-6);
+  font-weight: 400;
 }
 
 .content time {
@@ -34,4 +35,5 @@
 
 .content p {
   line-height: var(--size-6);
+  font-weight: lighter;
 }
