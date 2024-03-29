@@ -2,10 +2,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  scrollbar-width: thin;
-  scrollbar-color: #8b92a5, #000;
-}
 
 body {
   --color-grey-50: hsl(0, 0%, 95.7%);
